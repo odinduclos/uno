@@ -1,0 +1,140 @@
+@font-face {
+	font-family: "Arial";
+	src: url("../fonts/arial_narrow_7/arial_narrow_7.ttf");
+}
+
+body {
+	width: 100%;
+	font-family: "Arial";
+}
+
+/* #error {
+	width: 800px;
+	height: 100px;
+	overflow: auto;
+	text-align: left;
+	margin: auto;
+}
+
+#choose {
+	width: 800px;
+	margin: auto;
+}
+
+#choose input {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+button {
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+#uno {
+	width: 800px;
+	margin: auto;
+	display: none;
+} */
+
+#error {
+	height: 100px;
+	overflow: auto;
+	text-align: left;
+}
+
+#uno {
+	display: none;
+}
+
+#hand {
+/* 	width: 600px;
+margin-left: 210px; */
+	text-align: center;
+	font-size: 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#board {
+	text-align: center;
+	font-size: 40px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+/* 	height: 100%;
+float: left; */
+}
+
+.card {
+	width: 100px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	line-height: 200px; /* hauteur de ligne (identique) */
+	white-space: nowrap; /* interdiction de passer à la ligne */
+	padding: 5px;
+	float: left;
+	margin: 10px;
+}
+
+.card-center {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-shadow: 0px 0px 10px #000000;
+	height: 190px;
+}
+
+#board .card {
+	zoom: 1.5;
+}
+
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.black {
+	background-color: black;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.orange {
+	background-color: orange;
+}
+
+#launch {
+	display: none;
+}
+
+#color {
+	display: none;
+	cursor: pointer;
+}
+
+.left {
+	float: left;
+}

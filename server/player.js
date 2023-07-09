@@ -1,0 +1,1 @@
+var Player=function(a){console.log("Player!",a),this.id=a,this.room=a,this.cards=[],this.name=a};Player.prototype.addCards=function(a){return this.cards=this.cards.concat(a),this.cards},Player.prototype.removeCard=function(a){return this.cards.splice(a,1),this.cards},module.exports=Player;

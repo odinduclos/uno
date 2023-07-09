@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Uno</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="col-md-10 col-md-offset-2 col-xs-12">
+		<div id="error" class="col-md-10">
+			<div>Choose to create or join a game.</div>
+			<button id="launch">Launch game</button>
+		</div>
+		<div id="choose" class="col-md-12">
+			<div class="col-md-12">
+				<input type="text" placeholder="Your name" id="name"><br />
+				<input type="submit" value="Create game" id="create">
+			</div>
+			<div id="join" class="col-md-1">
+				Or join:&nbsp;
+			</div>
+			<div id="rooms" class="col-md-4"></div>
+		</div>
+		<div id="color" class="col-md-12">
+			<div class="red col-md-2" data-color="red">Red</div>
+			<div class="yellow col-md-2" data-color="yellow">Yellow</div>
+			<div class="green col-md-2" data-color="green">Green</div>
+			<div class="blue col-md-2" data-color="blue">Blue</div>
+		</div>
+	</header>
+	<section>
+		<div id="uno" class="col-md-10 col-md-offset-2 col-xs-12">
+			<div id="board" class="col-md-3 col-xs-5 col-sm-4">
+				BOARD
+				<div class="content"></div>
+			</div>
+			<div id="hand" class="col-md-7 col-xs-5 col-sm-6">
+				HAND
+				<div class="content"></div>
+			</div>
+		</div>
+	</section>
+</body>
+<script  type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script  type="text/javascript" src="socket.io/socket.io.js"></script>
+<script  type="text/javascript" src="js/main.js"></script>
+</html>
